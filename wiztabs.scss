@@ -1,0 +1,30 @@
+.wiztabs [data-target-group]
+{
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	transition: height 0.3s linear;
+	-webkit-transition: height 0.3s linear;
+	-moz-transition: height 0.3s linear;
+}
+.wiztabs [data-target-state]
+{
+	left: 0;
+	top: 0;
+	position: absolute;
+	transition: all 0.40s ease-in-out;
+	-webkit-transition: all 0.40s ease-in-out;
+	-moz-transition: all 0.40s ease-in-out;
+}
+
+.wiztabs [data-target-state='0']
+{
+	visibility: hidden;
+}
+.wiztabs [data-target-state='1']
+{
+	visibility: visible;
+}
+
+
+
